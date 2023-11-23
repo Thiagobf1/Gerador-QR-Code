@@ -85,3 +85,9 @@ qr-header p {
 .container.active #qr-code {
   opacity: 1;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%; /* Em telas menores, o container terá largura total */
+  }
+}
